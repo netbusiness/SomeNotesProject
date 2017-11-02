@@ -1,0 +1,42 @@
+.note-list-row > a {
+    float: right;
+    margin: 0px 2px;
+}
+
+#newNoteModalTextbody {
+    width: 100%;
+    min-height: 100px;
+}
+
+#newNoteModal .form-control:focus {
+    z-index: 2;
+}
+
+#newNoteModal #newNoteModalTitle {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: -1px;
+}
+
+#newNoteModal #newNoteModalTextbody {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#newNoteModal #newNoteModalAlert {
+    display: none;
+}
+
+#statusAlert {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.last-edit-time {
+    font-size: 10px;
+}
